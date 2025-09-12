@@ -77,7 +77,8 @@ p {
 }
 .pro {
     display: flex;
-    padding: auto;
+    /* padding: auto; */
+    flex-direction: row;
 }
 footer {
     text-align: center;
