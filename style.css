@@ -67,6 +67,9 @@ img {
     display: flex;
     color: white;
 }
+.pro:hover{
+    transform: scale(0.9);
+}
 .nav {
     display: flex;
     flex-direction: row;
@@ -301,7 +304,6 @@ button {
 /* {{{{{{{{{{-------------Contact Page-----------}}}}}}}}} */
 .contact{
     width: 60%;
-    /* background-color: aqua; */
     margin: auto;
     text-align: center;
 }
@@ -323,6 +325,13 @@ input[type="submit"]:hover {
     font-size:14px;
     background:transparent;
     padding:10px;
+
+}
+.name:hover,.email:hover{
+    background-color: white;
+    border: #000;
+    border-radius: 10px;
+    border: 1px solid black;
 }
 .email {
     width: 100%;
